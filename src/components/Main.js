@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
+import avatar from '../images/avatar.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -15,6 +15,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
+          <span className="image avatar"><img src={avatar} alt="" /></span>
           <h2> Victor Tan </h2>
            <p>Adaptable, motivated and self-driven Economics & Finance major with
 cross-disciplinary skills sets involving marketing, analytics,
@@ -26,10 +27,13 @@ technologies & digital trends. </p>
 <p>In my free time, I enjoy playing the
 guitar, board/video gaming as well as hiking, kayaking & exploring the
 outdoors. I'm fascinated about personality assessments & quizzes.</p>
-<p>Here's a list of my personality profiles:
-Ideation-Strategic-Restorative-Communication-Command
-(StrengthsFinder2.0) ENTP (MBTI) Loyal-Skeptic (Enneagram) Mid-O
-High-C High-E Mid-A Low-N (Big5) Fire (TetraMap)</p>
+          <p>Here's a list of my personality profiles:<br></br>
+Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></br>
+          ENTP (MBTI) <br></br>
+          Loyal-Skeptic (Enneagram)<br></br>
+          Mid-O High-C High-E Mid-A Low-N (Big5)<br></br>
+          Fire (TetraMap)<br></br>
+          </p>
           {close}
         </article>
 
@@ -51,8 +55,12 @@ High-C High-E Mid-A Low-N (Big5) Fire (TetraMap)</p>
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Coming Soon</p>
+          <div class="container">
+          <span className="image main"><a href="https://www.linkedin.com/pulse/my-campus-experience-funding-societies-victor-tan/"><img src={pic03} alt="" /></a></span>
+            <div class="overlay">
+              <div class="text"><a href="https://www.linkedin.com/pulse/my-campus-experience-funding-societies-victor-tan/">My campus experience at Funding Societies</a></div>
+            </div>
+          </div>
           {close}
         </article>
 
