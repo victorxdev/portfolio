@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
+    title: "Victor - Digital Portfolio",
+    author: "Victor",
     description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
   },
   plugins: [
@@ -16,6 +16,20 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-PPP83FV",
+        // Include GTM in development.
+        // Defaults to false mTextTrackCueon.
+        includeInDevelopment: true,
+
+        // Specify optional GTM environment details.
+        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+        dataLayerName: "YOUR_DATA_LAYER_NAME",
       },
     },
     'gatsby-plugin-sass',
