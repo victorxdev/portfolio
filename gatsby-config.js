@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Victor - Digital Portfolio",
     author: "Victor",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    description: "Victor's Digital Portfolio"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
