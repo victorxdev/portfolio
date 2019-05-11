@@ -24,12 +24,7 @@ module.exports = {
         id: "GTM-PPP83FV",
         // Include GTM in development.
         // Defaults to false mTextTrackCueon.
-        includeInDevelopment: true,
-
-        // Specify optional GTM environment details.
-        gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-        gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-        dataLayerName: "YOUR_DATA_LAYER_NAME",
+        includeInDevelopment: false,
       },
     },
     'gatsby-plugin-sass',
