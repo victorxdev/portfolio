@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "digital-portfolio",
+  "description": "Victor Digital Portfolio",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Victor",
   "dependencies": {
     "gatsby": "2.4.3",
     "gatsby-plugin-google-tagmanager": "^2.0.13",
@@ -10,10 +10,14 @@
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
     "gatsby-plugin-sass": "^2.0.11",
+    "lodash-es": "4.17.11",
+    "lodash-move": "1.1.1",
     "node-sass": "^4.11.0",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0"
+    "react": "^16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.0",
+    "react-spring": "8.0.19",
+    "react-use-gesture": "5.0.0"
   },
   "keywords": [
     "gatsby"
