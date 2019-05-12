@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import avatar from '../images/avatar.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -39,12 +38,12 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <h3>Digital Marketing Executive | Funding Societies</h3>
+          <h3>Digital Marketing Executive | <a href="https://fundingsocieties.com/" target="_blank">Funding Societies</a></h3>
           <p>Funding Societies | Modalku is the largest Peer-to-Peer lending
           platform in Southeast Asia. It provides business financing to SMEs
           which is crowdfunded by retail and institutional investors.</p>
 
-          <h3>Marketing Lead | CareerSocius</h3>
+          <h3>Marketing Lead | <a href="https://careersocius.com/" target="_blank">CareerSocius</a></h3>
           <p>CareerSocius is a social enterprise that helps job-seekers in
           Singapore maximize their career potential. With a diverse team of
           Branding Buddies spanning across various industries, we offer the
