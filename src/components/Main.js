@@ -82,7 +82,7 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
               <textarea name="message" rows="4" id="message"></textarea></label>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send"/></li>
+              <li><input type="submit" value="Send Message"/></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
