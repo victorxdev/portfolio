@@ -70,16 +70,16 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
           <h2 className="major">Contact</h2>
           <form name="contact" method="POST" data-netlify="true">
             <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name"/>
+              <label htmlFor="name">Name
+              <input type="text" name="name" /></label>
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="_replyto"/>
+              <label htmlFor="email">Email
+              <input type="email" name="_replyto" /></label>
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" rows="4"></textarea>
+              <label htmlFor="message">Message
+              <textarea name="message" rows="4"></textarea></label>
             </div>
             <ul className="actions">
               <li><input type="submit" value="Send"/></li>
