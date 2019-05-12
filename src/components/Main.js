@@ -68,7 +68,7 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form action="https://formspree.io/victor.tqw@live.com" method="post">
+          <form name="contact" method="POST" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name"/>
