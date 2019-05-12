@@ -75,7 +75,7 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
             </div>
             <div className="field half">
               <label htmlFor="email">Email
-              <input type="email" name="_replyto" /></label>
+              <input type="email" name="email" /></label>
             </div>
             <div className="field">
               <label htmlFor="message">Message
