@@ -55,12 +55,14 @@ Ideation-Strategic-Restorative-Communication-Command (StrengthsFinder2.0)<br></b
 
         <article id="blog" className={`${this.props.article === 'blog' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
+          <a href="https://www.linkedin.com/pulse/my-campus-experience-funding-societies-victor-tan/">
           <div class="container">
-          <span className="image main"><a href="https://www.linkedin.com/pulse/my-campus-experience-funding-societies-victor-tan/"><img src={pic03} alt="" /></a></span>
+          <span className="image main"><img src={pic03} alt="" /></span>
             <div class="overlay">
-              <div class="text"><a href="https://www.linkedin.com/pulse/my-campus-experience-funding-societies-victor-tan/">My campus experience at Funding Societies</a></div>
+              <div class="text">My campus experience at Funding Societies</div>
             </div>
           </div>
+          </a>
           {close}
         </article>
 
